@@ -1,0 +1,32 @@
+/* Các CSS này dành cho toàn bộ website và desktop */
+body {
+    background: #fff;
+    color: 333;
+}
+/* Dành cho điện thoại */
+@media all and (max-width: 480px) {
+}
+/* Dành cho máy tính bảng */
+@media all and (max-width: 1024px) {
+}
+.dinhdang{
+    width: auto;
+    height: auto;
+}
+.style-banner{
+    width: auto;
+    height: 70px;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.style-logo{
+    width: auto;
+    height: auto;
+}
+.style-logo img{
+    width: auto;
+    height: 35px;
+    margin-left: 20px;
+}
