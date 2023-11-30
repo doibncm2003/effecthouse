@@ -20,6 +20,7 @@ body {
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
 }
 .style-logo{
     width: auto;
