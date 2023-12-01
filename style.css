@@ -4,40 +4,96 @@ body {
     color: 333;
 }
 /* Dành cho điện thoại */
-@media all and (max-width: 480px) {
+@media all and (max-width: 390px) {
 }
 /* Dành cho máy tính bảng */
 @media all and (max-width: 1024px) {
 }
 .dinhdang{
-    width: 480px;
-    height: auto;
+    width: 100%;
+    height: 100%;
 }
 .style-banner{
-    width: auto;
+    width: 100%;
     height: 70px;
     background-color: black;
     display: flex;
     align-items: center;
     flex-direction: row;
+    justify-content: space-between;
 }
-.style-banner a{
+.tiktok{
+    width: 50%;
+}
+.tiktok a{    
     display: flex;
     align-items: center;
     flex-direction: row;
     text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #fff;
 }
+.menu{
+    width: 100%;
+    height: 90px;
+    float: left;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: auto;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.menu a{
+    text-decoration: none; 
+    color: #fff;
+    font-size: 23px;
+    position: relative;
+    font-size: 1.1em;
+    margin-left: 5px;
+    text-align: center;
+}
+.menu a::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    border-radius: 5px;
+    bottom: -5px;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: left ;
+    transition: .3s;
+}
+.menu a:hover::after{
+    transform: scaleX(1);
+}
+.btlogin{
+    width: 200px;
+    height: 50px;
+    background:transparent;
+    border: 2px solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 30px;
+} 
 #avatar{
     width: auto;
     height: 45px;
     border-radius: 100%;
-    margin-left: 30px;
 }
 .kedoc{
     width: 2px;
     height: 30px;
     background-color: #fff;
-    margin-left: 40px;
+    margin: 10px;
 }
 .text{
     width: auto;
@@ -54,7 +110,10 @@ body {
 .style-logo img{
     width: auto;
     height: 30px;
+}
+.home-menu{
     margin-left: 20px;
+    margin-right: 10px;
 }
 .style-body-1{
     width: auto;
