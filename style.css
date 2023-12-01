@@ -10,6 +10,7 @@ body {
 @media all and (max-width: 1024px) {
 }
 .dinhdang{
+    width: 1024px;
     height: 100%;
 }
 .style-banner{
